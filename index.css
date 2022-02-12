@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  position:absolute;
+}
+
+body {
+  --widthAndHeight: 500px;
+  background-color: black;
+}
+
+#invisithing {
+  position: absolute;
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+
+circle {
+  position: absolute;
+  left: 500px;
+  top: 500px;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  width: var(--widthAndHeight);
+  height: var(--widthAndHeight);
+  border-radius: 100%;
+}
+
+circle2 {
+  position: absolute;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%,-50%);
+  border-radius: 100%;
+}
